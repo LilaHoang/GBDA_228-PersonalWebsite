@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="eng-ca">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lila Hoang's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <style>
+    table {
+      border-collapse: collapse;
+      position: absolute;
+      top: 150px;
+      left: 100px;
+      width: 1200px;
+      font-family: "Poppins", sans-serif;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+      color: #898AA6;
+    }
+
+    th {
+      background-color: black;
+      width: 100px;
+      color: white;
+    }
+
+    td {
+      width: 40%;
+    }
+
+    #myprojects {
+      position: absolute;
+      top: 950px;
+      left: 100px;
+      width: 1200px;
+      font-size: 60px;
+      font-weight: 1000;
+      color: #898AA6;
+    }
+
+    #project1 {
+      position: absolute;
+      top: 1250px;
+      left: 100px;
+      width: 1200px;
+      font-size: 60px;
+      font-weight: 1000;
+      color: #898AA6;
+    }
+
+    #project1 a {
+      color: #898AA6;
+    }
+
+    #project1 a:hover {
+      color: blue;
+    }
+
+    #project2 {
+      position: absolute;
+      top: 1850px;
+      left: 100px;
+      width: 1200px;
+      font-size: 60px;
+      font-weight: 1000;
+      color: #898AA6;
+    }
+
+    #project3 {
+      position: absolute;
+      top: 2450px;
+      left: 100px;
+      width: 1200px;
+      font-size: 60px;
+      font-weight: 1000;
+      color: #898AA6;
+    }
+
+    #project4 {
+      position: absolute;
+      top: 3050px;
+      left: 100px;
+      width: 1200px;
+      font-size: 60px;
+      font-weight: 1000;
+      color: #898AA6;
+    }
+
+    #project5 {
+      position: absolute;
+      top: 3725px;
+      left: 100px;
+      width: 1200px;
+      font-size: 60px;
+      font-weight: 1000;
+      color: #898AA6;
+    }
+
+    #project6 {
+      position: absolute;
+      top: 4575px;
+      left: 100px;
+      width: 1200px;
+      height: 850px;
+      font-size: 60px;
+      font-weight: 1000;
+      color: #898AA6;
+    }
+
+    .projectbox {
+      position: absolute;
+      height: 550px;
+      width: 1170px;
+      background-color: #FBFBFB;
+    }
+
+    .projectbox2 {
+      position: absolute;
+      height: 615px;
+      width: 975px;
+      background-color: #FBFBFB;
+    }
+
+    .projectbox3 {
+      position: absolute;
+      height: 800px;
+      width: 975px;
+      background-color: #FBFBFB;
+    }
+
+    .projectimg {
+      position: absolute;
+    }
+
+    .projecttext {
+      position: absolute;
+      height: 215px;
+      width: 500px;
+      left: 621px;
+    }
+
+    .projecttext2 {
+      position: absolute;
+      height: 215px;
+      width: 500px;
+      left: 450px;
+    }
+
+    .projecttext3 {
+      position: absolute;
+      height: 215px;
+      width: 500px;
+      left: 50px;
+    }
+
+    .projectbutton {
+      position: absolute;
+      height: 48px;
+      width: 104px;
+      left: 650px;
+      top: 400px;
+      background-color: white;
+      border-radius: 0px;
+      border: #8294C4;
+      text-align: center;
+      line-height: 10px;
+    }
+
+    .projectbutton a {
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+      color: #8294C4 !important;
+      text-decoration: none;
+    }
+
+    .projectbutton a:hover {
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+      color: #8294C4 !important;
+      text-decoration: none;
+    }
+
+    .projectbutton:hover {
+      background-color: #DBDFEA;
+      border-radius: 0px;
+      border: #DBDFEA;
+      color: #EEEEEE !important;
+    }
+
+    .projectbutton2 {
+      position: absolute;
+      height: 48px;
+      width: 104px;
+      left: 475px;
+      top: 450px;
+      background-color: white;
+      border-radius: 0px;
+      border: #8294C4;
+      text-align: center;
+      line-height: 10px;
+    }
+
+    .projectbutton2 a {
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+      color: #8294C4 !important;
+      text-decoration: none;
+    }
+
+    .projectbutton2 a:hover {
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+      color: #8294C4 !important;
+      text-decoration: none;
+    }
+
+    .projectbutton2:hover {
+      background-color: #DBDFEA;
+      border-radius: 0px;
+      border: #DBDFEA;
+      color: #EEEEEE !important;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div id="homepage" class="container">
+      <a href="AboutMe.html">&nbsp&nbsp&nbsp&nbsp Lila Hoang &nbsp&nbsp&nbsp&nbsp</a>
+    </div>
+    <div id="otherpages">
+      <a href="Education&Clubs.html">Education/Clubs</a>
+      <a href="ExploreDesigns.html">Explore Designs</a>
+    </div>
+    <a href="Contact.html"><button type="button">Contact</button></a>
+  </nav>
+
+
+  <table>
+    <tr>
+      <th>
+        <center>Qualification</center>
+      </th>
+      <th>
+        <center>Skills</center>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <center>Adobe Suite | Adobe Creative Cloud</center>
+      </td>
+      <td>
+        <ul>
+          <li>Illustrator</li>
+          <li>InDesign</li>
+          <li>Photoshop</li>
+          <li>Premiere Pro</li>
+          <li>Premiere Rush</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <center>Figma</center>
+      </td>
+      <td>
+        <ul>
+          <li>Able to create interactive prototypes</li>
+          <li>Creating wireframes</li>
+          <li>Mockup designs</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <center>Basic Coding Skills</center>
+      </td>
+      <td>
+        <ul>
+          <li>Racket</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Basics of RStudios</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <center>Other</center>
+      </td>
+      <td>
+        <ul>
+          <li>Experience in print production</li>
+          <li>Managing project deadlines</li>
+          <li>Exceptional Time-Management</li>
+          <li>Organization Skills</li>
+          <li>Natural collaboration skills</li>
+          <li>Able to multitask</li>
+          <li>Excel Skills</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  <div id="myprojects">
+    <span style="font-weight: 500;">My </span><br> Projects
+    <div id="separate">
+      <hr>
+    </div>
+  </div>
+
+
+  <div id="project1">
+    <div class="projectbox"></div>
+    <div class="projectimg">
+      <img src="Imagines/PokerNow.png" alt="PokerNow" width="595" height="auto">
+    </div>
+    <div class="projecttext">
+      <h1>&nbspPassion Redesign</h1>
+      <p>For this passion project, I took on the challenge of revamping the <a
+          href="https://www.pokernow.club/">PokerNow</a> website. I mapped out the original sitemap, then revamped it.
+        Afterwards, I used Figma to create user-centric redesign. This project was all about pushing creative
+        boundaries, resulting in a visually captivating and intuitively navigable version of PokerNow.</p>
+    </div>
+    <div class="projectbutton">
+      <p>
+        <a href="PDF/PokerNow.pdf">View PDF</a>
+      </p>
+    </div>
+  </div>
+
+  <div id="project2">
+    <div class="projectbox"></div>
+    <div class="projectimg">
+      <img src="Imagines/Diptych Poster.png" alt="Diptych" width="600" height="auto"
+        style="position: absolute; top: 45px;">
+    </div>
+    <div class="projecttext">
+      <h1>&nbspDiptych Poster</h1>
+      <p>This design is a poster meant to represent the E7 building on the campus of the University of Waterloo. The
+        photos used in the diptych poster feature the red staircase, a staple in the building that is easily
+        recognizable for anyone familiar with it. The text on the poster is intended to represent the student programs
+        associated with this building by incorporating formulas and code.</p>
+    </div>
+    <div class="projectbutton">
+      <p>
+        <a href="PDF/Diptych Poster.pdf">View PDF</a>
+      </p>
+    </div>
+  </div>
+
+  <div id="project3">
+    <div class="projectbox"></div>
+    <div class="projectimg">
+      <img src="Imagines/Instagram Designs.png" alt="Insta" width="600" height="auto"
+        style="position: absolute; top: 70px;">
+    </div>
+    <div class="projecttext">
+      <h1>&nbspInstagram Designs</h1>
+      <p>As an active member of the University of Waterloo Computer Science Club, I have been actively involved in
+        creating Instagram designs to promote various club events as requested by the CSC committee. Additionally, being
+        part of the marketing team, I've played a role in publishing and promoting not only the designs I've crafted but
+        also those contributed by the talented design team, raising awareness for our club initiatives.</p>
+    </div>
+    <div class="projectbutton">
+      <p>
+        <a href="PDF/Instagram Designs.pdf">View PDF</a>
+      </p>
+    </div>
+  </div>
+
+  <div id="project4">
+    <div class="projectbox2"></div>
+    <div class="projectimg">
+      <img src="Imagines/Sponsorship Package.png" alt="sponsorship" width="425" height="auto">
+    </div>
+    <div class="projecttext2">
+      <h1>&nbspSponsorship Package</h1>
+      <p>I created a sponsorship package for the University of Waterloo Computer Science Club. Designed to reflect the
+        club's unique style and theme, the package not only communicates crucial information but also captivates with
+        its aesthetic appeal. By strategically integrating the provided details, I ensured the design not only informs
+        but also leaves a lasting impression, making it an effective tool for securing valuable sponsorships</p>
+    </div>
+    <div class="projectbutton2">
+      <p>
+        <a href="PDF/Sponsorship Package.pdf">View PDF</a>
+      </p>
+    </div>
+  </div>
+
+  <div id="project5">
+    <div class="projectbox3"></div>
+    <div class="projectimg">
+      <img src="Imagines/Infographic Design.png" alt="Infographic" width="425" height="auto">
+    </div>
+    <div class="projecttext2">
+      <h1>&nbspInfographic Design</h1>
+      <p>The infographic design is based on an autoethnography of my journey from Toronto to Waterloo and my phone usage
+        throughout the travel. The infographic predominantly employs graphs to represent the data gathered on that day.
+      </p>
+    </div>
+  </div>
+
+  <div id="project6">
+    <div class="projectbox3"></div>
+    <div class="projectimg">
+      <img src="Imagines/Photos.png" alt="photostaken" width="800" height="auto"
+        style="position:  absolute; top: 100px; left: 100px;">
+    </div>
+    <div class="projecttext3">
+      <h1>Photo Gallery</h1>
+    </div>
+
+</body>
+
+</html>
